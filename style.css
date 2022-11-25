@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2/family=Patrick+Hand&display=swap");
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Patrick Hand", cursive;
+}
+
+section {
+  height: 100vh;
+}
+.container {
+  background-color: navy;
+  width: 100%;
+  height: 100%;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: crimson;
+}
+h1 {
+  text-align: center;
+  font-size: 5em;
+  color: antiquewhite;
+}
+.navwrapper {
+  width: 100%;
+  height: 80px;
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.contentwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+.nav {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+.nav:hover {
+  background-color: aqua;
+  border-radius: 10px;
+  transition: all ease-in-out 0.25ss;
+}
+.nav:hover > a {
+  color: black;
+}
+
+.navlink {
+  color: azure;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 75px;
+  height: 75px;
+  background-color: brown;
+  border-radius: 15px;
+}
